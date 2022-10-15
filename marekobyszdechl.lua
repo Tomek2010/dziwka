@@ -77,7 +77,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    DziwkaTheme = {
+    GrapeTheme = {
         SchemeColor = Color3.fromRGB(255, 255, 255),
         Background = Color3.fromRGB(140, 140, 140),
         Header = Color3.fromRGB(23, 23, 23),
@@ -157,8 +157,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.LightTheme
     elseif themeList == "BloodTheme" then
         themeList = themeStyles.BloodTheme
-    elseif themeList == "DziwkaTheme" then
-        themeList = themeStyles.DziwkaTheme
+    elseif themeList == "GrapeTheme" then
+        themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
         themeList = themeStyles.Ocean
     elseif themeList == "Midnight" then
